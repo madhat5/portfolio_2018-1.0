@@ -6,3 +6,16 @@
   font-weight: 700;
   font-family: 'Montserrat';
 }
+
+.btn-outline-light {
+    color: #18bc9c;
+    background-color: transparent;
+    background-image: none;
+    border-color: #18bc9c;
+}
+
+.btn-outline-light:hover {
+    color: #ffffff;
+    background-color: #18bc9c;
+    border-color: #18bc9c;
+}

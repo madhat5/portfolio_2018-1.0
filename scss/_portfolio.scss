@@ -1,18 +1,21 @@
 // Styling for the portfolio section
 .portfolio {
   margin-bottom: -15px;
+  // background: linear-gradient(#fff, #999999, #fff) !important;
+  background: #ffffff;
   .portfolio-item {
     position: relative;
     display: block;
-    max-width: 25rem;
-    margin-bottom: 15px;
+    max-width: 36rem;
+    margin-bottom: 0;
     .portfolio-item-caption {
-      -webkit-transition: all ease 0.5s;
-      -moz-transition: all ease 0.5s;
-      transition: all ease 0.5s;
-      opacity: 0;
-      background-color: fade-out($primary, .1);
+      background-color: rgba(241, 241, 241, .9);
       &:hover {
+        -webkit-transition: all ease 0.8s;
+        -moz-transition: all ease 0.8s;
+        transition: all ease 0.8s;
+        // opacity: 0;
+        background-color: rgba(0, 0, 0, 0);
         opacity: 1;
       }
       .portfolio-item-caption-content {
@@ -23,7 +26,7 @@
   @media (min-width: 576px) {
     margin-bottom: -30px;
     .portfolio-item {
-      margin-bottom: 30px;
+      margin-bottom: 0;
     }
   }
 }
@@ -60,4 +63,20 @@
       }
     }
   }
+}
+
+.portfolio-row div {
+  padding: 0;
+}
+
+.body-copy-div {
+  margin: 0 auto;
+}
+
+.about-copy {
+  text-align: center;
+}
+
+.portofolion-pieces {
+  margin: 0 auto;
 }
