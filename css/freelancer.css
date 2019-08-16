@@ -337,6 +337,12 @@ header.masthead h3 {
   margin: 0 auto;
 }
 
+.portfolio-carousel {
+  position: relative;
+  width: 90%;
+  margin: 0px auto;
+}
+
 .floating-label-form-group {
   position: relative;
   border-bottom: 1px solid #e9ecef;

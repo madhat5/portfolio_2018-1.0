@@ -72,4 +72,12 @@
     });
   });
 
+  // slick carousel
+  $('.portfolio-carousel').slick({
+    slidesToShow: 1, 
+    infinite: true,
+    arrows: true,
+    dots: true
+  });
+ 
 })(jQuery); // End of use strict
